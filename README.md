@@ -1,6 +1,6 @@
 # Business of Building Apps
 
-### Motivations for building an app
+<h2 style="color:grey; font-weight:bold; margin-top: 1rem">Motivations for building an app</h2>
 
 <details>
 <summary>Motivations for building an app</summary>
@@ -211,7 +211,8 @@ exercise
 
 </details>
 
-### Design an effective app
+<h2 style="color:grey; font-weight:bold; margin-top: 2rem">Design an effective app
+</h2>
 
 <details>
 <summary>Design an effective app</summary>
@@ -270,31 +271,274 @@ Onboarding
 <summary>User Experience</summary>
 
 ```js
+// Design | Technology | Strategy
 
+// User flow : (amazon) => open app => search => compare => addToCart => placeOrder => pay => receiveConfirmation
+
+// User journey :
+// - Activation : instal app
+// - Acquisition : register an account
+// - Retention : buy product, consume
+// - Referral : invite friend, email, notifications, delivery
+
+// Conversion rates : figure out where people are dropping out
+
+// User empathy : Says , Does, Thinks, Feels
+// Restaurant
+// - Says: I want to order food, hungry
+// - Does: Opens app, Browses menu, compares
+// - Thinks: When will it arrive, expensive, taste
+// - Feels: Hungry, impatient, anticipate
+
+// Qualitative UX Observations
+// - actions complete ?
+// - frustrated ?
+// - correct action ?
+// - misunderstand a menu or icon ?
+// - try multiples times ?
+
+// Don't listen to what users say. Observe what they do.
+```
+
+![UX](ux-pyramid.png)
+
+UX - 6 Principles
+
+```js
+// - Minimal => google vs yahoo
+// - Intuitive groups
+// - Flow naturally
+// - Obvious icons
+// - Efficient motions
+// - Consistency throughout
 ```
 
 </details>
 
 <details>
-<summary>MVP</summary>
+<summary>MVP - Minimum Viable Product</summary>
 
 ```js
 // Proven to be necessary
 // Easiest to develop
 ```
 
-</details>
+```js
+// Prototype > MVP > Product
+
+// What features should be included in the MVP ?
+// Does the user need it to use the app ?
+// How simple is it to develop ? Cost ?
+// Does it provide value to the company ?
+
+// - Kepp track of backlog: Now | V2 | Future
+
+// - MVP done: is still a good idea?
+```
 
 </details>
 
-### Marketing and Monetizing an app
+</details>
 
-### Building User Loyalty
+<h2 style="color:grey; font-weight:bold; margin-top: 2rem">Marketing and Monetizing an app
+</h2>
 
-### Choosing the rights tools
+<details>
+<summary>Marketing and Monetizing</summary>
 
-### The Full Stack of technology behind an App
+Business Model Canvas
 
-### Hiring a development team
+```js
+// - Partners ?
+// - Activities ?
+// - Resources ?
+// - Value propositions ? why do people want give you money
+// - Customer Relationships ? why customers love you or keep coming back
+// - Channels ? how gonna reach customers, deliver services or products
+// - Customer segments ? profile
+// - Cost structure ? salary, expenses
+// - Revenues ? how make money
+```
 
-### Emerging Trends in mobile development
+Monetization
+
+```js
+// - Models: purchase, ads, freemium, susbscription, in app purchases
+```
+
+Marketing
+
+```js
+// - 52% by friends, family, colleagues, 40% brow app store
+// - 1/4 apps, discovered by search engines
+// - search apps => 43% technology, 35% travel, 34% local, 28% entertainement
+
+// - Download factors : 82% price, 62% description, 60% reviews & ratings, 43% free trial
+```
+
+Investors
+
+```js
+// - Why investors ? Expand/Lose equity or control, Advertise/Conflict, Development, Network
+
+// - Bootstrap > Friends and family > Business Incubators > Venture > Purchase
+
+// Investor concerns: Are you committed? skilled enough? spending? growing ? compare to competition ? others investors ? profitable ? how much control are you willing to give ?
+
+// The pitch : Your story, your value, success
+```
+
+</details>
+
+<h2 style="color:grey; font-weight:bold; margin-top: 2rem">Building User Loyalty
+</h2>
+
+<details>
+<summary>Make an app addictive</summary>
+
+```js
+// - 38% abandon apps after downloading
+// - 34% Lost interest
+// - 29% No longer need
+
+// - Restart using app: 30% discount/coupon, 24% Exclusive bonus content, 21% Family, friends start using it, 16% Notifications, new features
+// - Discount more effective by categories: 47% Retail, 40% Travel, 37% Local, 36% Technology
+
+// ----
+
+// - Addiction hook: trigger > action > variable reward > user investment
+
+// 1 - Trigger ? 5 Whys
+
+// 2 - Action :
+// - something easy, motivating, emotionally satisfying
+// - 1-Motivation, 2-Ability, 3-Trigger
+// - Time, Money, Thought, Social cost, Routine
+
+// 3 - Variable reward : Something cool, new
+// Variables type rewards: the tribe, the self, the hunt
+// The self: self promotion, new reward
+// The hunt: finding something cool before everyone else
+// The tribe: reputation, likes
+
+// 4 - User investment
+// Ikea effect => build something by your own, emotional investment
+
+// 71% will "stick" to an app if used 3 times
+//  => habit zone frequency/usefulness
+```
+
+</details>
+
+<h2 style="color:grey; font-weight:bold; margin-top: 2rem">Choosing the rights tools
+</h2>
+
+<details>
+<summary>App dev choices</summary>
+
+Why you should not buy an app
+
+```js
+// mobileApp = performance(game), phone features(scan, gps, accelerometer), push notifications, frenquentUser homePage icon
+
+// !mobileApp = better search result, cost(One code base), technical problems(os update), appStore/googleStore fees, updating download
+```
+
+Companies who nailed their app
+
+```js
+// - amazon
+// - banking
+// - mcdonalds(gps)
+// - lyft(gps)
+// - walgreens(code scan)
+// - ikea(augmented reality)
+// - l'oreal(augmented reality)
+// - golf shot(augmented reality)
+// - vuforia chalk(remote augmented reality)
+// - health monitoring(plug in item, health check)
+```
+
+Trending cross-platform techs
+
+```js
+// Native code
+// - pros: best UX, looks "real" app, treated well by Apple/Google
+// - cons: require learning multiple languages, multiple versions of the same app(osApp, web, update, double work)
+
+// Responsive web apps
+// - pros: No extra code, HTML/Js, no compiling or apps store publishing
+// - cons: slower, not available offile, no app store, not all feature alternative
+
+// Hybrid apps
+// - pros: simple to build html/Js compiled, one code base, can publish to app store, no apple pc required
+// - cons: looks  like a web page,
+//  ---
+// Hybrid - xamarin
+// - pros: create native apps, one code base, one langugage(C#)
+// - cons: apps compiled larger
+//  ---
+// Hybrid - react native
+// - pros: use react, one code base, native app performance
+// - cons:
+
+// --
+// game engines : unreal, unity
+// - games, VR and augmented reality
+
+// -- emerging tech : kotlin, flutter
+```
+
+</details>
+
+<h2 style="color:grey; font-weight:bold; margin-top: 2rem">The Full Stack of technology behind an App
+</h2>
+
+<details>
+<summary>Database</summary>
+
+```js
+// - SQL, noSQL, Graph, Search Engine
+```
+
+![SQL vs noSQL](sql-nosql.png)
+
+</details>
+
+<h2 style="color:grey; font-weight:bold; margin-top: 2rem">Hiring a development team
+</h2>
+
+<details>
+<summary>Dev Roles</summary>
+
+```js
+// - Product Manager
+// - Designer
+// - Front-End Developer
+// - Back-End Developer
+
+// Product Manager
+// 1 - Figure out the problem
+// 2 - Execution : goal => goal => goal
+// 3 - Measure user acceptance, satisfaction
+```
+
+development
+
+```js
+// app
+// - for etablished business
+// - for unique capabilities (gps, VR, camera, etc)
+// - more challenging for beginners
+// - better pay
+
+// web
+// - more widely utilized
+// - more jobs available
+// - most skills can be transferred to mobile
+```
+
+</details>
+
+<h2 style="color:grey; font-weight:bold; margin-top: 2rem">Emerging Trends in mobile development
+</h2>
