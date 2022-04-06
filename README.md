@@ -542,3 +542,23 @@ development
 
 <h2 style="color:grey; font-weight:bold; margin-top: 2rem">Emerging Trends in mobile development
 </h2>
+
+<details>
+<summary>Future trends</summary>
+
+```js
+// cloud computing
+// AI
+// cross platform development
+// m computing => manage all your app, business on mobile
+// VR
+// Augmented Reality
+// High bandwith
+// IOT
+// wearable: watches
+// security
+// blockchain
+// beacon
+```
+
+</details>
